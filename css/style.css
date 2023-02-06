@@ -1,0 +1,479 @@
+
+* {
+	margin:0;
+	padding:0;
+	border:0;
+    box-sizing: border-box;
+
+}
+
+a:hover {
+    color: #22223B;
+    background-color: white;
+}
+
+body {
+    background-color: #22223B;
+  }
+
+#hheader {
+   background-color: #22223B;
+   width: 100vw;
+   height: 100px;
+   padding-top: 0;
+   position: fixed;
+   top: 0;
+   
+}
+
+#hnav {
+    width: 100vw;
+    font-size: 1.5em;
+    font-family: Poppins, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    margin-top: 50px;
+  }
+
+#hnav p {
+    padding-right: 60px;
+}
+
+#hnav  a:hover {
+    color: #22223B;
+    background-color: white;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+  }
+
+  
+#homeintro {
+     background-color: #4a4e69;
+     width: 100vw;
+     height: 100vh;
+     overflow-y: auto;
+     z-index: 0;
+}
+
+#prof {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10vh;
+    margin-top: 5%;
+    margin-bottom: 0px;
+}
+
+
+#profile {
+    max-width: 350px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+
+
+}
+ #name {
+    color: white;
+    font-size: 6vw;
+    font-family: "Roboto Mono Light", sans-serif;
+    padding-top: 15vh;
+    margin-top: -5%;
+    text-align: center;
+}
+
+#tag {
+    color:white;
+    text-align:center;
+    font-size: 1.5vw;
+    font-family: Poppins, sans-serif;
+}
+
+.buttonall-h {
+    display: flex;
+    justify-content: center;  
+}
+
+.buttonall-v {
+    display: flex;
+    align-items: center;
+}
+
+.buttonall-500 {
+    height: 500;
+}
+
+#buttonintro {
+    background-color: #c9ada7;
+    border: none;
+    font-size: 25px;
+    font-family: Poppins, sans-serif;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    align-items: center;
+    border-radius: 20px;
+    width: 250px;
+    margin-bottom: 3%;
+}
+
+#buttonintro a{
+    color: white;
+    text-decoration: none;
+}
+
+#buttonintro a:hover {
+    background-color:  #22223B;
+    text-decoration: none;
+}
+
+#aboutme {
+    background-color: #f2e9e4 ;
+    width: 100vw;
+    height: 100vh;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    z-index: 0;
+   
+}
+
+.titlepage {
+    padding-top: 120px;
+    font-family: Poppins, sans-serif;
+    font-size: 45px;
+    letter-spacing: 5px;
+    text-align: center;
+    color: #22223B;
+    word-spacing: 3px;
+
+}
+
+.aboutmetext {
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    word-spacing: 3px;
+    padding-top: 3px;
+    padding-bottom: 5px;
+    padding-right: 100px;
+    padding-left: 100px;
+    text-align: justify;
+    text-indent: 80px;
+    flex-wrap: wrap;
+ 
+}
+
+#tasks li {
+    text-indent: 120px;
+    text-justify: justify;
+    list-style-position: inside;
+    
+}
+
+#buttonabout {
+    background-color: #c9ada7;
+    border: none;
+    font-size: 25px;
+    font-family: Poppins, sans-serif;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    align-items: center;
+    border-radius: 20px;
+    width: 250px;
+    margin-bottom: 3%;
+ 
+}
+
+#buttonabout a{
+    color: white;
+    text-decoration: none;
+}
+
+#buttonabout a:hover {
+    background-color:  #22223B;
+    text-decoration: none;
+}
+
+
+#portfolio{
+    background-color: #4a4e69;
+    width: 100vw;
+    height: 100vh;
+    overflow-y: auto;
+    z-index: 0;
+}
+
+.portfoliotitle {
+ 
+    padding-top: 120px;
+    font-family: Poppins, sans-serif;
+    font-size: 45px;
+    letter-spacing: 5px;
+    text-align: center;
+    word-spacing: 3px;
+    color: white;
+    flex-wrap: wrap;
+}
+
+
+.box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px 10px;
+}
+
+
+.tiles1 {
+    background-color: #c9ada7 ;
+    width: 300px;
+    height: 300px;
+    border: none;
+    text-align: center;
+    display: inline-block;
+    border-radius: 20px;
+    flex-wrap: wrap;
+}
+
+.tiles2 {
+    background-color: #f2e9e4;
+    width: 300px;
+    height: 300px;
+    border: none;
+    text-align: center;
+    display: inline-block;
+    border-radius: 20px;
+    flex-wrap: wrap;
+   
+}
+
+
+.tiles3{
+    background-color: #c9ada7 ;
+    width: 300px;
+    height: 300px;
+    border: none;
+    text-align: center;
+    display: inline-block;
+    border-radius: 20px;
+    flex-wrap: wrap;
+}
+
+
+
+.tileheader1 {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 35px;
+    font-family: Poppins, sans-serif;
+    color: white;
+    font-weight: bolder;
+}
+
+.tilecontent1 {
+    padding-top: 30px;
+    padding-right: auto;
+    text-align: center;
+    font-size: 25px;
+    font-family: Poppins, sans-serif;
+    color: white;
+   
+}
+
+
+.tileheader2 {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 35px;
+    font-family: Poppins, sans-serif;
+    color: #4a4e69;
+    font-weight: bolder;
+}
+
+.tilecontent2 {
+    color: #4a4e69;
+    padding-top: 50px;
+    padding-right: auto;
+    text-align: center;
+    font-size: 35px;
+    font-family: Poppins, sans-serif;
+}
+
+.tileheader3 {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 35px;
+    font-family: Poppins, sans-serif;
+    color: white;
+    font-weight: bolder;
+}
+.tilecontent3 {
+  
+    padding-top: 20px;
+    padding-right: auto;
+    text-align: center;
+    font-size: 25px;
+    font-family: Poppins, sans-serif;
+    color: white;
+    
+}
+
+
+#buttonportfolio {
+    background-color: #c9ada7;
+    border: none;
+    font-size: 25px;
+    font-family: Poppins, sans-serif;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    align-items: center;
+    border-radius: 20px;
+    width: 250px;
+    flex-wrap: wrap;
+    margin-top: -3%;
+    margin-bottom: 5%;
+  
+}
+
+#buttonportfolio a{
+    color: white;
+    text-decoration: none;
+}
+
+#buttonportfolio a:hover {
+    background-color:  #22223B;
+    text-decoration: none;
+} 
+.buttonportfolio-h {
+    display: flex;
+    justify-content: center;  
+}
+
+.buttonportfolio-v {
+    display: flex;
+    align-items: center;
+    padding-top: 70px;
+}
+
+.buttonportfolio-500 {
+    height: 500;
+}
+
+#contactme{
+    background-color: #9a8c98;
+    width: 100vw;
+    height: 100vh;
+    overflow-y: auto;
+    z-index: 0;
+}
+
+.contacttitle {
+    padding-top: 120px;
+    font-family: Poppins, sans-serif;
+    font-size: 45px;
+    letter-spacing: 5px;
+    text-align: center;
+    word-spacing: 3px;
+    color: white;
+    flex-wrap: wrap;
+}
+
+.maincontact {
+    max-width: 1400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    margin: 0 auto;
+    padding: 20px 10px;
+  
+
+  }
+
+.contactimg {
+    width: 100px;
+    height: 100px;
+}
+.contactbox {
+    padding-top: 60px;
+    width: 300px;
+    height: 150px;
+    border: none;
+    text-align: center;
+    display: inline-block;
+    border-radius: 20px;
+    flex-wrap: wrap;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    color: white;
+
+}
+
+
+#contactlink {
+    text-decoration: none;
+    color: #22223B;
+}
+
+
+
+#buttoncontact {
+    background-color: #c9ada7;
+    border: none;
+    font-size: 25px;
+    font-family: Poppins, sans-serif;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    align-items: center;
+    border-radius: 20px;
+    width: 250px;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    
+}
+
+#buttoncontact a{
+    color: white;
+    text-decoration: none;
+}
+
+#buttoncontact a:hover {
+    background-color:  #22223B;
+    text-decoration: none;
+} 
+
+ footer {
+    background-color: #4a4e69;
+    width: 100vw;
+    height: 50px;
+    font-size: 25px;
+    font-family: "Roboto Mono Light", sans-serif;
+    color: white;
+    padding-top: 10px;
+    text-align: center;
+    flex-wrap: wrap;
+    position: fixed;
+    bottom: 0;
+  }
+

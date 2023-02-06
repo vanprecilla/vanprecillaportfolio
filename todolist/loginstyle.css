@@ -1,0 +1,81 @@
+
+
+
+ * {   
+	margin:0;
+	padding:0;
+	border:0;
+  box-sizing: border-box;
+ 
+}
+
+body {
+  background-color: #F5EBE0;
+  color: #342412;
+  overflow: visible;
+
+}
+
+.loginform {
+    font-size: 20px;
+    background-color: whitesmoke;
+    width: 600px;
+    padding: 30px;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    border: 1px solid #bbbbbb; 
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    display: block;
+ }
+
+.logtitle {
+    text-align: center;
+}
+
+ .loginbox {
+    height: 30px;
+    width: 500px;
+    padding: 5px 10px;
+    margin: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+a {
+    color: #342412;
+}
+
+.forgot {
+    margin: 10px;
+    font-size: 15px;
+}
+
+.btnsubmit {
+    width: 150px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 25px;
+    font-size: 15px;
+    color: white;
+    border-style: double;
+    background:  #342412;
+    border-radius: 5px;
+  }
+
+  .create {
+    margin-left: 130px;
+  }
+
+  .invalid-feedback{
+    color: red;
+  }

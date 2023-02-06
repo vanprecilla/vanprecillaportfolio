@@ -1,0 +1,312 @@
+
+ /* whole page */
+* {   
+	margin:0;
+	padding:0;
+	border:0;
+  box-sizing: border-box;
+ 
+}
+
+ /* body only */
+body {
+  background-color: #F5EBE0;
+  color: #342412;
+  overflow: visible;
+
+}
+
+/* fixed header */
+.pageheader {  
+    background-color: #AB907B;
+    color: white;
+    border-style: groove;
+    border-bottom-width:  5px;
+    border-bottom-color: #342412;
+    width: 100vw;
+    height: 100px;
+    padding-top: 0;
+    position: fixed;
+    top: 0;
+}
+
+/* display company logo */
+.logo {  
+    background-color: #AB907B;
+    color: white;
+    font-size: 1.5em;
+    font-family: ABeezee, sans-serif;
+    letter-spacing: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: fixed;
+    margin-top: 15px;
+    margin-left: 25px;
+    padding-right: 5px;
+}
+
+/* display date today */
+.datebox{  
+    background-color: #AB907B;
+    font-size: 1.5em;
+    font-family: Poppins, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    position: fixed;
+    margin-left: 350px;
+    margin-top: 32px;
+}
+
+/* display date today */
+.dateicon {
+    background-color: white;
+    width: 35px;
+    height: 35px;
+    margin-right: 5px;
+}
+
+/* display my account & logout */
+.acct{
+    float: right;
+    margin-top: 28px;
+    margin-right: 50px;
+    position: relative;
+ }
+
+ /* display my account & logout */
+.accticon {
+    width: 50x;
+    height: 50px;
+}
+
+/* display my account & logout */
+.hovermenu{
+    display: none;
+    right: 0;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* display my account & logout */
+.hoverlink {
+    font-size: 1.5em;
+    color: black;
+    padding: 20px 20px;
+    text-decoration: italic;
+    display: block;
+}
+
+/* display my account & logout */
+.hovermenu a:hover {
+  background-color: #342412;
+  color: white;
+}
+
+/* display my account & logout */
+.acct:hover .hovermenu {display: block;}
+
+/* display my account & logout */
+.acct:hover .accthover{
+  background-color: #342412;
+  color: white;
+
+}
+
+/* display username */
+.usernamebox {
+    float: right;
+    margin-top: 32px;
+    margin-right: 20px;
+    font-size: 1.5em;
+    font-family: Roboto Mono, sans-serif;
+    letter-spacing: 3px;
+}
+
+/* display fixed side navigationbar */
+.sidenav {
+    font-size: 1.5em;
+    font-family: Roboto Mono, sans-serif;
+    color: white;
+    top: 100px;
+    height: 100vh;
+    width: 20%;
+    border-style: groove;
+    border-right-width: 5px;
+    border-right-color: #342412;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    background-color: #AB907B;
+    overflow-x: hidden;
+    padding-top: 20px;
+    padding-left: 30px;
+  }
+
+  /* display fixed side navigationbar icon */
+  .icon {
+    width: 45px;
+    height: 45px;
+    padding-right: 2px;
+   }
+
+  /* display fixed side navigationbar link */
+  .sidenav a {
+    padding: 5px 5px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 50px;
+  }
+
+  .sidenav a:hover {
+    background-color: #342412;
+  }
+
+  /* display fixed side navigationbar calendar */
+  .sidenav label{
+    margin-bottom: 20px;
+  }
+
+  .calendar {
+    font-family: Poppins, sans-serif;
+    font-size: 1rem;
+    color: white;
+    border-style: double;
+    border-width: 2px;
+    border-color: white;
+    background-color: #AB907B;
+    display: flexbox;
+    margin: 20px;
+  }
+
+  .calendar:hover {
+    background-color: #342412;
+  }
+  /* display main form container */
+  .schedule_main_con {
+    padding: 20px;
+    padding-bottom: 100px;
+    top:100px;
+    left: 20%;
+    font-size: 1.5em;
+    height: 100vh;
+    width: 80vw;
+    overflow: auto;
+    position: fixed;
+    z-index: -1;
+  }
+
+
+ .type_input {
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+  
+
+/* display form show today to-do-list */
+.show_today {
+  font-size: 20px;
+  width: 45%;
+  margin: 20px;
+  text-align: left;
+  padding: 10px; 
+  border: 1px solid #bbbbbb; 
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  display: inline-block;
+
+}
+
+table {
+  width: 100%;
+  margin: 30px auto;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+tr {
+  border-bottom: 1px solid #cbcbcb;
+}
+
+th, td{
+  font-size: 15px;
+  border: none;
+  width: 100px;
+  height: 30px;
+  padding: 2px;
+}
+
+/* display form calendar selected date */
+.show_other_date {
+  font-size: 20px;
+  width: 45%;
+  margin: 20px;
+  text-align: left;
+  padding: 10px; 
+  border: 1px solid #bbbbbb; 
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  display: inline-block;
+
+}
+
+/* display form edit */
+.input_update{
+  font-size: 20px;
+  width: 45%;
+  margin: 20px;
+  text-align: left;
+  padding: 10px; 
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  display: inline-block;
+
+}
+
+.btnsubmit {
+  padding: 10px;
+  margin: 5px;
+  font-size: 15px;
+  color: white;
+  border-style: double;
+  background:  #342412;
+  border-radius: 5px;
+}
+
+.btncalendar {
+  font-family: Poppins, sans-serif;
+  font-size: 12px;
+  color: white;
+  border-style: double;
+  border-width: 2px;
+  background-color:  #342412;
+  padding: 5px;
+  margin: 1px;
+  border-radius: 10px;
+} 
+
+  
+  
+  
+  
+  
